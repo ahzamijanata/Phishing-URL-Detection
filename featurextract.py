@@ -3,7 +3,7 @@ import re
 from bs4 import BeautifulSoup
 import socket
 import requests
-from googlesearch import search
+from googlesearch-python import search
 import whois
 from datetime import date, datetime
 from dateutil.parser import parse as date_parse
